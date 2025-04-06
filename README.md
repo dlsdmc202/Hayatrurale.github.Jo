@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>حياة ريفية - Hayat Rurale</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background-color: #fefefe;
+      color: #333;
+    }
+    header {
+      background-image: url('your-background-image.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.5rem;
+    }
+    nav {
+      background-color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #009688;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .btn {
+      background-color: #009688;
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 1rem;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #f0f0f0;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>حياة ريفية</h1>
+    <p>عيش التجربة... كما لو كنت في حضن الطبيعة</p>
+  </header>
+
+  <nav>
+    <a href="#about">عن المزرعة</a>
+    <a href="#experience">التجربة</a>
+    <a href="#pricing">الأسعار</a>
+    <a href="#contact">احجز الآن</a>
+  </nav>
+
+  <section id="about">
+    <h2>عن حياة ريفية</h2>
+    <p>
+      تجربة سياحية فريدة من نوعها، حيث يعيش الزائر يومه كمزارع في أحضان الطبيعة، يجمع الحليب والبيض، يقطف الخضروات، ويستمتع بمشهد الغروب من فوق الرابية.
+    </p>
+  </section>
+
+  <section id="experience">
+    <h2>تفاصيل التجربة</h2>
+    <ul>
+      <li>استقبال ريفي وشاي على الحطب</li>
+      <li>جولة صباحية لجمع البيض وحلب الحليب</li>
+      <li>إعداد إفطار طازج من خيرات المزرعة</li>
+      <li>غداء بلدي على التنور أو الطابون</li>
+      <li>أنشطة زراعية وورش تقليدية</li>
+      <li>جلسة غروب وسمر حول النار</li>
+    </ul>
+  </section>
+
+  <section id="pricing">
+    <h2>الأسعار</h2>
+    <p>الأردني: 25 دينار | الأجنبي: 50 دينار | خصم للعائلات والمجموعات</p>
+  </section>
+
+  <section id="contact">
+    <h2>احجز الآن</h2>
+    <p>تواصل معنا على:</p>
+    <p>واتساب: <a href="https://wa.me/962XXXXXXXXX">اضغط هنا</a></p>
+    <p>إنستغرام: <a href="https://instagram.com/hayatrurale">@hayatrurale</a></p>
+    <button class="btn">أرسل طلب حجز</button>
+  </section>
+
+  <footer>
+    &copy; 2025 حياة ريفية - جميع الحقوق محفوظة
+  </footer>
+</body>
+</html>
